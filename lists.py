@@ -21,3 +21,26 @@ else:
     print("no")
 
 print(len(mylist))
+
+mylist.append("lemon")
+
+mylist.insert(1, "blueberry")
+print(mylist)
+
+popitem = mylist.pop()
+print(popitem)
+print(mylist)
+
+mylist.remove("cherry")
+print(mylist)
+
+print(mylist2)
+mylist2.reverse()
+print(mylist2)
+
+mylist2.clear()
+print(mylist2)
+
+newlist = [1, 2, 0, 7, 3]
+newlist.sort()
+print(newlist)
